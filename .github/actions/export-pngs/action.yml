@@ -21,4 +21,4 @@ runs:
     - |
       mkdir -p $GITHUB_WORKSPACE/${{ inputs.pngs_dir }} ;
       pcbdraw ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/front.png
-      pcbdraw --back ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/back.png
+      pcbdraw --back ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/back.png -s styles.json
