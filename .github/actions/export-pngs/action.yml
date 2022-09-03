@@ -8,7 +8,7 @@ inputs:
     description: 'PNGs folder'
     required: true
   theme:
-    default: '-s set-blue-enig'
+    default: '-s oshpark-purple'
   # flags:
   #   description: 'Additional flags for pcbdraw'
   #   default: ''
@@ -21,4 +21,4 @@ runs:
     - |
       mkdir -p $GITHUB_WORKSPACE/${{ inputs.pngs_dir }} ;
       pcbdraw ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/front.png
-      pcbdraw --back ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/back.png -s styles.json
+      pcbdraw --back ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/back.png
