@@ -10,14 +10,14 @@ To order the PCB the following settings are recommended<sup>1,2</sup>:
 
 |Detail|Value|
 |---|---|
-|Gerber file|`sweepv2.1_gerber.zip`|
+|Gerber file|`sweep-high_gerber.zip`|
 |Base material|FR-4|
 |Layers|2|
 |Dimension|95.15mm x 229.54mm|
 |Different design|2|
 |Delivery format|Panel by customer|
 |PCB thickness|1.6mm|
-|PCB color|(Personal preference)|
+|PCB color|purple|
 |Silkscreen|(Personal preference)|
 |Surface finish|(Personal preference)|
 |Outer copper weight|1oz|
