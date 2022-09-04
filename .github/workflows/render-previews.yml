@@ -32,11 +32,16 @@ jobs:
         with:
           pcb_file: '"./Sweep High M/sweep-high.kicad_pcb"'
           pngs_dir: ./gallery/sweep-high-m
-      - name: Sweep High
+      - name: Sweep High Synthwave
         uses: ./.github/actions/export-pngs
         with:
-          pcb_file: '"./Sweep High/sweep-high.kicad_pcb"'
-          pngs_dir: ./gallery/sweep-high
+          pcb_file: '"./Sweep High Synthwave/sweep-high.kicad_pcb"'
+          pngs_dir: ./gallery/sweep-high-synthwave
+      - name: Sweep High Kode
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: '"./Sweep High Kode/sweep-high.kicad_pcb"'
+          pngs_dir: ./gallery/sweep-high-kode
       - name: Sweep Compact LOW
         uses: ./.github/actions/export-pngs
         with:
